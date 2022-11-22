@@ -1,0 +1,159 @@
+
+.wrapper {
+  width: 315px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section_indents {
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+.section_blocks {
+  display: inline-block;
+  &:last-child() {
+    margin-bottom: 0px;
+  }
+}
+
+.service_href {
+  display: inline-block;
+  color: #24A3FF;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+  text-transform: uppercase;
+  &:hover {
+    color: #F0145A;
+  }
+}
+
+.service_href::after {
+  content: "";
+  display:inline-block;
+  margin-left: 5px;
+  height: 11px;
+  width: 10px;
+  background-image: url("/image/arrow.svg");
+  background-repeat: no-repeat;
+}
+
+
+h3 {
+  display: block;
+  @include mainfont ();
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.block_service {
+  margin: 0px;
+  margin-bottom: 30px;
+
+  img {
+    display: inline-block;
+    background:$baseColor;
+    padding: 14px;
+    border-radius: 24px;
+    margin-bottom: 30px;
+  }
+
+  h5 {
+    display: block;
+    margin-bottom: 15px;
+    color: $secondaryColor;
+    @include secondfont();
+  }
+  
+  p {
+    color: $baseColor;
+   @include textfont();
+  }
+}
+
+.block_service:last-child {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+@media (min-width:768px) {
+  .wrapper {
+    width: 648px;
+  }
+  .section_indents {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .section_blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 60px;
+  }
+  .section_blocks:last-child {
+    padding-bottom: 0px;
+  }
+
+  .block_service {
+    padding-top: 0px;
+    margin-bottom: 0px;
+    width: 294px;
+    &:nth-last-child(2) {
+      margin-bottom: 0px
+    }
+  }
+  h3 {
+    width: 472px;
+  }
+  p {
+    color: $baseColor;
+    @include textfont();
+    width: 294px;
+  }
+}
+
+@media (min-width:1024px) {
+  .wrapper {
+    width: 904px;
+  }
+
+  
+  .block_service {
+    padding-top: 0px;
+    width: 261px;
+    // &:nth-last-child(-n+2) {
+    //   margin-bottom: 0px
+    // }
+}
+
+h3 {
+  width: 904px;
+}
+p {
+  color: $baseColor;
+  @include textfont();
+  width: 261px;
+}
+}
+
+@media(min-width:1920px) {
+  .wrapper {
+    width: 1600px;
+  }
+
+    
+  .block_service {
+    width: 493px;
+}
+
+p {
+  color: $baseColor;
+  @include textfont();
+  width: 493px;
+}
+}

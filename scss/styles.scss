@@ -1,3 +1,6 @@
-h2 {
-  color: rgb(255, 147, 5);
-}
+@use "./variables" as *;
+@use "./mixins" as *;
+
+@import "./section/benefits_section";
+@import "./setting";
+@import "./normalize";

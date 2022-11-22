@@ -1,0 +1,25 @@
+@mixin mainfont() {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  min-width: 308px;
+ }
+
+ @mixin mainfontablet() {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  width: 648px;
+ }
+
+ @mixin secondfont(){
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+ }
+
+ @mixin textfont() {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+ }
