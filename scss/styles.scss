@@ -1,6 +1,13 @@
 @use "./variables" as *;
 @use "./mixins" as *;
 
-@import "./section/benefits_section";
+@import "./sections/sponsors";
+@import "./sections/benefits";
 @import "./setting";
 @import "./normalize";
+
+
+@import "./media/tablet-768";
+@import "./media/tablet-1024";
+@import "./media/desktop-1440";
+@import "./media/desktop-1920";

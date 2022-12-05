@@ -1,0 +1,14 @@
+@media (min-width:1440px) {
+  .wrapper {
+    width: 1320px;
+  }
+
+  .block_service {
+    width: 400px;
+}
+p {
+  color: $baseColor;
+  @include textfont();
+  width: 400px;
+}
+}

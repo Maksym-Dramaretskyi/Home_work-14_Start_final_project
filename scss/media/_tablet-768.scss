@@ -1,0 +1,35 @@
+@media (min-width:768px) {
+  .wrapper {
+    width: 648px;
+  }
+  .section_indents {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .section_blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 60px;
+  }
+  .section_blocks:last-child {
+    padding-bottom: 0px;
+  }
+
+  .block_service {
+    padding-top: 0px;
+    margin-bottom: 0px;
+    width: 294px;
+    &:nth-last-child(2) {
+      margin-bottom: 0px
+    }
+  }
+  h3 {
+    width: 472px;
+  }
+  p {
+    color: $baseColor;
+    @include textfont();
+    width: 294px;
+  }
+}
