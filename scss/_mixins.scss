@@ -2,14 +2,14 @@
   font-weight: 700;
   font-size: 30px;
   line-height: 37px;
-  min-width: 308px;
+  min-width: 255px;
  }
 
  @mixin mainfontablet() {
   font-weight: 700;
   font-size: 38px;
   line-height: 46px;
-  width: 648px;
+  min-width: 444px;
  }
 
  @mixin secondfont(){

@@ -1,7 +1,13 @@
-@media (min-width:768px) {
+  @media (min-width:768px) {
   .wrapper {
-    width: 648px;
+    padding-left: 60px;
+    padding-right: 60px;
   }
+
+  .sponsors_section a:nth-child(n+7) {
+    display:inline-block;
+  }
+
   .section_indents {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -19,17 +25,17 @@
   .block_service {
     padding-top: 0px;
     margin-bottom: 0px;
-    width: 294px;
+    width: calc(50% - 30px);
     &:nth-last-child(2) {
       margin-bottom: 0px
     }
   }
-  h3 {
-    width: 472px;
-  }
   p {
     color: $baseColor;
     @include textfont();
-    width: 294px;
+  }
+
+  .slider {
+    margin-top: 60px;
   }
 }

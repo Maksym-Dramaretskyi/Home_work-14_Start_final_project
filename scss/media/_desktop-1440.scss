@@ -1,14 +1,22 @@
 @media (min-width:1440px) {
-  .wrapper {
-    width: 1320px;
-  }
-
   .block_service {
-    width: 400px;
+    width: calc(33.33% - 40px);
 }
 p {
   color: $baseColor;
   @include textfont();
-  width: 400px;
+}
+
+
+
+.slider .photo_men {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  border-radius: 12px 0px 0px 12px;
+}
+
+.slider .text_main_partner {
+  padding: 30px;
 }
 }

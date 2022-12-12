@@ -1,31 +1,42 @@
 @media (min-width:1024px) {
   .wrapper {
-    width: 904px;
+    padding-left: 60px;
+    padding-right: 60px;
   }
 
   .block_service {
     padding-top: 0px;
-    width: 261px;
-
+    width: calc(33.33% - 40px);
 }
 
-h3 {
-  width: 904px;
-}
 p {
   color: $baseColor;
   @include textfont();
-  width: 262px;
 }
 .sponsors_section {
   display: flex;  
   flex-wrap: wrap;
-  padding-top:60px;
 }
 
 .sponsors_section a {
-  width: 33.3%;
+  width: 25%;
   font-size: 0px;
 }
+.text_main_partner  {
+  min-width: 504px;
+}
 
+.slider {
+  flex-direction: row;
+  .text_slider  {
+    h5{
+      @include mainfontablet();
+    }
+  }
+}
+
+.slider .photo_men  {
+  height: auto;
+  min-width: 400px;
+  }
 }

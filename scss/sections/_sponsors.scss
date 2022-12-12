@@ -1,15 +1,16 @@
-.wrapper {
-  width: 0px;
-}
+
 .sponsors_section {
   text-align: center;
-  padding-top:60px;
 }
 
 .sponsors_section a {
   width: 100%;
   display: inline-block;
   font-size: 0px;
+}
+
+.sponsor_h3 {
+  display: inline-block;
 }
 
 .hillel {
@@ -41,3 +42,32 @@
   padding: 36px 0px;
 }
 
+.clickky {
+  background-color:#C71C36;
+  padding: 30px 59px;
+}
+
+.ecolease {
+  padding:22px 55px ;
+  background-color: #DCF3F9;
+}
+
+.ingratek {
+  padding: 30px 37px 28px 37px;
+  background-color: #EAEAEA;
+}
+
+.city-par {
+  padding: 46px 37px 40px 37px;
+  background-color:#282240;
+}
+
+.art-print {
+  padding: 37px 33px;
+  background-color: #1D4568;
+}
+
+.ultimatecard {
+  padding: 14px 64px 1px 64px;
+  background-color: #000000;
+}

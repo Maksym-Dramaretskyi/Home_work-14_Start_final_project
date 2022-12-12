@@ -1,16 +1,15 @@
 @media(min-width:1920px) {
   .wrapper {
-    width: 1600px;
+    max-width: 1600px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: auto;
+    margin-right: auto;
   }
-
-    
-  .block_service {
-    width: 493px;
-}
 
 p {
   color: $baseColor;
   @include textfont();
-  width: 493px;
+
 }
 }
