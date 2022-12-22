@@ -3,6 +3,34 @@
   padding-right: 30px;
 }
 
+
+.line {
+    display: inline-block;
+    width: 100%;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.3);
+    // transform: rotate(90deg);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.we_lawyers {
+  h5 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+  }
+  p {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    color: #FFFFFF;
+  }
+}
+
+
 .main_sponsors {
   padding-top: 30px;
   text-align: center;
@@ -95,6 +123,3 @@
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
-
-
-

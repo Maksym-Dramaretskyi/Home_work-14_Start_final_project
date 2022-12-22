@@ -4,17 +4,21 @@
     padding-right: 60px;
   }
 
+
+
+.start {
+  display: flex;
+}
   .block_service {
     padding-top: 0px;
     width: calc(33.33% - 40px);
 }
 
 p {
-  color: $baseColor;
   @include textfont();
 }
 .sponsors_section {
-  display: flex;  
+  display: flex;
   flex-wrap: wrap;
 }
 
@@ -39,4 +43,17 @@ p {
   height: auto;
   min-width: 400px;
   }
+
+  .cards {
+    flex-wrap: nowrap;
+
+  }
+  .card {
+  width: calc(33.33%);
+}
+
+.card_millennial {
+  width: calc(33.33%);
+}
+
 }

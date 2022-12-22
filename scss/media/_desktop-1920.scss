@@ -8,8 +8,11 @@
   }
 
 p {
-  color: $baseColor;
   @include textfont();
+}
 
+.slider .photo_men {
+  max-width: 400px;
+  max-height: 298px;
 }
 }

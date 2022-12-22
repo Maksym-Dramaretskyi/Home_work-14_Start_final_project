@@ -3,7 +3,6 @@
     width: calc(33.33% - 40px);
 }
 p {
-  color: $baseColor;
   @include textfont();
 }
 

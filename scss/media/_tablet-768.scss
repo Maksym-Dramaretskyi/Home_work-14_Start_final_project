@@ -4,6 +4,10 @@
     padding-right: 60px;
   }
 
+  .s {
+    width: auto;
+  }
+
   .sponsors_section a:nth-child(n+7) {
     display:inline-block;
   }
@@ -12,12 +16,14 @@
     padding-top: 60px;
     padding-bottom: 60px;
   }
+
   .section_blocks {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 60px;
   }
+
   .section_blocks:last-child {
     padding-bottom: 0px;
   }
@@ -30,12 +36,57 @@
       margin-bottom: 0px
     }
   }
+  
   p {
-    color: $baseColor;
     @include textfont();
   }
 
   .slider {
     margin-top: 60px;
+    }
+
+
+.main_public_section {
+  h3 {
+    @include mainfontablet();
   }
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.card {
+  width: calc(50% - 15px);
+  margin-bottom: 0px;
+}
+
+
+.card_millennial {
+  width: calc(100%);
+  background-color: #fff;
+  margin: 0px;
+}
+
+.text_april  {
+  width: 100%;
+}
+.section_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+}
+.sect_map_navigation {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.communication {
+  display: flex;
+  justify-content: flex-start;
+}
 }

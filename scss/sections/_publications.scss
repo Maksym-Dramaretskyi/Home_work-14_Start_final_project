@@ -1,0 +1,104 @@
+.wrapper {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.main_public_section {
+  padding-top: 30px;
+  margin-bottom: 30px;
+  display:inline-block;
+  a {
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+  h3 {
+    min-width: 315px; 
+    margin-bottom: 30px;
+    @include mainfont();
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  h5 {
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #24A3FF; 
+    text-decoration:none;
+  }
+}
+
+.card {
+  display: inline-block;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+.card_millennial {
+  background-color: #fff;
+}
+.photo_public {
+  content: "";
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:100%;
+  height:200px;
+  background-image: url("../../image/Publication-1.jpg");
+  border-radius: 8px 8px 0px 0px;
+}
+
+.public_2 {
+  content: "";
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:100%;
+  height:200px;
+  background-image: url("../../image/Publication-2.jpg");
+  border-radius: 8px 8px 0px 0px;
+}
+.public_millennial {
+  content: "";
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:100%;
+  height:200px;
+  background-image: url("../../image/Publication-3.png");
+  border-radius: 8px 8px 0px 0px;
+} 
+
+.public_part {
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.april {
+  display: inline-block;
+  width: 100%;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #B3B3BA;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  &::after {
+    content: "";
+    display: inline-block;
+    margin-top: 15px;
+    width: 100%;
+    border-bottom: 4px solid #E6E6F0;
+  }
+  }
+
+.text_april {
+  display: inline-block;
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
