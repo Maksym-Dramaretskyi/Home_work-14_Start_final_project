@@ -210,6 +210,7 @@ body {
   margin: 0px;
   min-width: 375px;
   overflow: auto;
+  background-color: red;
 }
 
 .background_color {
@@ -610,12 +611,13 @@ template {
 .slider .photo_men {
   content: "";
   display: flex;
-  min-width: 315px;
+  min-width: 315 px;
   height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 12px 12px 0px 0px;
+  background-image: url("../../image/image.svg");
 }
 
 .slider_partner {
@@ -824,6 +826,10 @@ template {
 }
 .communication img {
   margin-bottom: 10px;
+}
+
+.start nav a {
+  color: red;
 }
 
 @media (min-width: 768px) {

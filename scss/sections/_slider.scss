@@ -56,13 +56,13 @@
   .photo_men  { 
     content: "";
     display: flex;
-    min-width:315px;
+    min-width:315 px;
     height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
     border-radius: 12px 12px 0px 0px;
-    // background-image: url("../../image/image.svg");
+    background-image: url("../../image/image.svg");
     }
 }
 
